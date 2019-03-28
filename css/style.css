@@ -2,7 +2,24 @@
     --light-green: #A2CA39;
     --dark-green: #4e7e0d;
     --white: #fff;
+    --purple: #732dc4;
 }
+.title-handwriting {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 40px;
+    color: var(--purple);
+}
+.oswald-font {
+    font-family: 'Oswald', sans-serif;
+}
+.section-padding {
+    padding: 70px 0;
+}
+.text-center {
+    text-align: center;
+}
+
+/*HEADER*/
 .main_header {
     padding: 20px 0;
     background-color: var(--light-green);
@@ -89,4 +106,31 @@
     .main_header__menu, .main_header__form, .btn-modal {
         margin-bottom: 20px;
     }
+}
+
+/*INTRO*/
+
+.intro {
+    background-image: url(../img/bg-intro.png);
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+}
+
+@media (max-width: 1199px){
+    .intro {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 810px){
+    .intro {
+        max-height: 200px;
+    }
+}
+
+/*CLASSROOM*/
+
+.classroom img {
+    margin-bottom: 20px;
 }
