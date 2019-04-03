@@ -1,9 +1,16 @@
 :root {
     --light-green: #A2CA39;
+    --so-light-green: #EAFBBC;
     --dark-green: #4e7e0d;
     --white: #fff;
     --purple: #732dc4;
+    --gray: #E6E6E6;
 }
+.btn.btn-primary {
+    background-color: var(--purple);
+    border: none;
+}
+
 .title-handwriting {
     font-family: 'Pacifico', cursive;
     margin-bottom: 40px;
@@ -130,7 +137,49 @@
 }
 
 /*CLASSROOM*/
-
+.classroom {
+    background-image: url(../img/bg-intro.png);
+    background-position: center;
+    background-size: cover;
+}
 .classroom img {
     margin-bottom: 20px;
+}
+
+.classrooms_see_all {
+    color: var(--dark-green);
+    font-weight: 700;
+}
+
+.classrooms_cta {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+/*PLANOS*/
+.idx_plans {
+    background-color: var(--so-light-green);
+}
+
+.idx_plans__item span {
+    display: block;
+    padding: 10px 0;
+    background-color: var(--dark-green);
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 700;
+}
+.idx_plans__item a{
+    text-transform: uppercase;
+}
+.idx_plans__box {
+    padding: 20px 0;
+    text-align: center;
+    background-color: var(--gray);
+}
+.idx_plans_title {
+    margin: 70px 0 20px;
+    color: var(--purple);
 }
