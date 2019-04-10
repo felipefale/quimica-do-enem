@@ -5,11 +5,12 @@
     --green: #4E7E0D;
     --white: #fff;
     --purple: #732dc4;
-    --gray: #4e7e0d;
+    --light-gray: #D4D2D2;
     --red: #B10000;
 }
  ul{
     padding-left: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -189,7 +190,7 @@
 .idx_plans__box {
     padding: 20px 0;
     text-align: center;
-    background-color: var(--gray);
+    background-color: var(--light-green);
 }
 .idx_plans_title {
     margin: 70px 0 20px;
@@ -252,4 +253,101 @@
 .footer-copy {
     background-color: var(--dark-green);
     color: #FFF;
+}
+
+/*SUB NAV INTERN*/
+.sub_menu, .sub_menu nav {
+    background: url('../img/texturaTopo.jpg');
+}
+.sub_menu li {
+    margin: 0 10px;
+}
+
+.sub_menu a {
+    color: var(--purple);
+    font-weight: 700;
+}
+
+/*CURSINHOS*/
+.cursinhos_item {
+    display: block;
+    
+
+}
+.cursinhos_item h2{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    border-left: 1px solid var(--light-gray);
+    border-right: 1px solid var(--light-gray);
+}
+.cursinhos_item img {
+    width: 100%;
+}
+.cursinhos_item_info {
+    background-color: var(--light-gray)!important;
+}
+
+/*PLANOS*/
+.plano {
+    border-top: 1px solid var(--light-gray);
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.plano_item h3 {
+    color: var(--dark-green);
+}
+.plano_item strong {
+    font-size: 1.2rem;
+}
+
+.plano_btn .btn.btn-primary {
+    background-color: var(--dark-green);
+}
+
+.assine h1 {
+    font-size: 2rem;
+}
+.assine h2 {
+    color: var(--purple);
+    font-size: 1.5rem;
+}
+
+/*MÓDULO AULAS*/
+.nav_aulas {
+
+}
+
+.nav_aulas li {
+    text-align: center;
+    padding: 10px 0;
+}
+.nav_aulas li.active {
+        background: var(--light-green);
+}
+
+.nav_aulas li.active a {
+    color: var(--dark-green);
+}
+
+.nav_aulas a {
+    color: #252525;
+    font-weight: bold;
+}
+.nav_aulas {
+    position: relative;
+    border-left: 3px solid var(--dark-green);   
+}
+.aula_contador {
+    position: absolute;
+    padding: 2px 0 0;
+    left: -17px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--dark-green);
+    border-radius: 50%;
+    color: #FFF;
+}
+
+.descricao_aula h2 {
+    color: var(--purple);
 }
