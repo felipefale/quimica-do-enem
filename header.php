@@ -50,7 +50,20 @@
                         Login
                     </button>
 
-                    <a class="btn btn-success" href="" title="Cadastrar no Química do ENEM online">Cadastrar</a>
+                    <div class="dropdown">
+                      <button class="btn btn-primary dropdown-toggle" type="button" id="perfil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Aluno
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="perfil">
+                        <a class="dropdown-item" href="meu-perfil.php">Meu Perfil</a>
+                        <a class="dropdown-item" href="trocar-de-curso.php">Trocar de curso</a>
+                        <a class="dropdown-item" href="assinatura.php">Assinatura</a>
+                        <a class="dropdown-item" href="enviar-depoimento.php">Envie seu depoimento</a>
+                        <a class="dropdown-item" href="#">Sair</a>
+                      </div>
+                    </div>
+
+                    <a class="btn btn-success" href="assine-ja.php" title="Cadastrar no Química do ENEM online">Cadastrar</a>
 
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
@@ -88,8 +101,8 @@
                                     </form>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-success">Assine já</button>
-                                    <button type="button" class="btn btn-danger">Esqueci Minha Senha</button>
+                                    <a href="assine-ja.php" type="button" class="btn btn-success">Assine já</a>
+                                    <a href="esqueci-minha-senha.php" class="btn btn-danger">Esqueci Minha Senha</a>
                                     <button type="button" class="btn btn-dark" data-dismiss="modal">Fechar</button>
                                 </div>
                             </div>
@@ -127,10 +140,10 @@
                         <a class="nav-link" href="exercicios.php">Exercícios</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Provas</a>
+                        <a class="nav-link" href="provas.php">Provas</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Rankings</a>
+                        <a class="nav-link" href="ranking.php">Rankings</a>
                       </li>
                     </ul>
                 </div>

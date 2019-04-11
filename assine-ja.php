@@ -12,7 +12,7 @@
 						<strong>R$ 9,90</strong> <small>total de R$ 99,00 + tx PagSeguro</small>
 					</div>
 					<div class="plano_btn">
-						<a href="" class="btn btn-primary">Assinar</a>
+						<a href="identificacao.php" class="btn btn-primary">Assinar</a>
 					</div>
 				</div>
 
@@ -22,7 +22,7 @@
 						<strong>R$ 14,90</strong> <small> total de R$ 89,40 + tx PagSeguro</small>
 					</div>
 					<div class="plano_btn">
-						<a href="" class="btn btn-primary">Assinar</a>
+						<a href="identificacao.php" class="btn btn-primary">Assinar</a>
 					</div>
 				</div>
 
@@ -32,7 +32,7 @@
 						<strong>R$ 16,90</strong> <small>total de R$ 50,70 + tx PagSeguro</small>
 					</div>
 					<div class="plano_btn">
-						<a href="" class="btn btn-primary">Assinar</a>
+						<a href="identificacao.php" class="btn btn-primary">Assinar</a>
 					</div>
 				</div>
 
@@ -42,7 +42,7 @@
 						<strong>R$ 19,90</strong> <small> + tx PagSeguro</small>
 					</div>
 					<div class="plano_btn">
-						<a href="" class="btn btn-primary">Assinar</a>
+						<a href="identificacao.php" class="btn btn-primary">Assinar</a>
 					</div>
 				</div>
 			</div>
